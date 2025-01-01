@@ -1,0 +1,213 @@
+.sellOneStrip {
+    background-color: #808080;
+    width: 100%;
+}
+
+.navBarOne {
+    background-color: white;
+    width: 100%;
+}
+
+.glyphicon :hover {
+    color: #00CED1;
+}
+
+.btn-default {
+    margin: 0.5%;
+}
+
+.glyphicon {
+    margin: 0.9%;
+    margin-top: 4%;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    align-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.img {
+    height: 40vh;
+    background-image: url("../image/Alexander_stream.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s ease;
+    border-radius: 2%;
+}
+
+#yarcon_stream {
+    background-image: url(../image/yarcon_stream.jpg);
+}
+
+#heleksander_stream {
+    background-image: url(../image/Alexander_stream.PNG);
+}
+
+#lakish_stream {
+    background-image: url(../image/yarcon_stream.jpg);
+}
+
+#Amusement_Park {
+    background-image: url(../image/center1.jpg);
+}
+
+#zoo {
+    background-image: url("../image/namel_fun.jpg");
+}
+
+#Hot_Air_Balloon {
+    background-image: url(../image/hot_air_baloon.jpg);
+}
+
+#yarcon_purk {
+    background-image: url(../image/yarcon_park.jpg);
+}
+
+#Shear_Polg_Reserve {
+    background-image: url(../image/polg-camping.jpg);
+}
+
+#yarcon_sources {
+    background-image: url(../image/yarcon-picnic.jpg);
+}
+
+#prat_stream {
+    background-image: url(../image/prat_stream.jpg);
+}
+
+#hog_stream {
+    background-image: url(../image/hog_stream.jpg);
+}
+
+#Zofar_stream {
+    background-image: url(../image/Zofar_stream.jpg);
+}
+
+#Israel_Aquarium {
+    background-image: url(../image/Israel_Aquarium.jpg);
+}
+
+#bauyns_stream {
+    background-image: url(../image/Banias\ _stream.PNG);
+}
+
+
+#riding_camels {
+    background-image: url(../image/south.jpg);
+}
+
+#cinert_sailing {
+    background-image: url(../image/cinert_sailing.PNG);
+}
+
+
+#Menara_mounetion {
+    background-image: url(../image/Mount_chermonk.jpg);
+
+}
+
+#Ein_Avdat {
+    background-image: url(../image/Ein_Avdat.jpg);
+
+}
+
+#tamar_kenyon {
+    background-image: url(../image/tamar_kenyon.jpg);
+}
+
+#The_underwater_observatory_in_Eilat {
+    background-image: url(../image/jerosaleim.jpg);
+}
+
+#Observatory {
+    background-image: url(../image/observatory.jpg);
+}
+
+
+
+.img:hover {
+    opacity: 0.7;
+}
+
+.img p {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 450%;
+
+}
+
+.titleTypeTrips {
+    background-color: #00CED1;
+    display: inline-block;
+}
+
+.titleTypeTrips p {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+@media screen and (min-width:620px) {
+    .container {
+        width: 90%;
+        display: grid;
+        align-content: space-around;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .secondary_toolbar {
+        height: 14vh;
+    }
+
+    .nav button {
+        font-size: 165%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container {
+        width: 75%;
+        display: grid;
+        align-content: space-around;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+}
+
+.secondary_toolbar {
+    background-color: #00CED1;
+    height: 23vh;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 100%;
+}
+
+.Subheadings {
+    font-size: 220%;
+    color: black;
+    display: flex;
+    position: absolute;
+    /* whdith:20%; */
+}
+
+.Subheadings p {
+    position: absolute;
+
+}
+
+.secondary_toolbar a {
+    height: 46.4px;
+    width: 28%;
+}

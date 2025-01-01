@@ -43,9 +43,6 @@ body {
     cursor: pointer;
 }
 
-/* #over:target{
-} */
-
 .About {
     display: flex;
     align-items: stretch;
@@ -59,7 +56,6 @@ body {
     flex-direction: column;
     /* margin: 20px; */
     justify-content: space-between;
-
 }
 
 #origionAbout {
@@ -163,65 +159,8 @@ hr {
     color: #00CED1;
 
 }
- 
-/* .conteiner{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly ;
-    align-items: center;
-    text-align: center;
-    min-height:80vh;
 
-} */
-/* .btn{
-   width: 30px;
-    height: 100px;
-    border:none; 
-     color:white;
-  border-radius: 8PX;
-    font-size: 2rem;
-    outline: none;
-    border:80px solid#42fbf2; 
-    position: relative;
-    z-index: 1;  
-
-/* }*/
-/* .btn:hover{
-    color: #fff;
-    cursor: pointer;
-} 
-
- .btn::before{
-    transition: 0.5s all ease;
-    position: absolute;
-    top:o;
-    left: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: "";
-    background-color: #42fbf2;
-    width: 30px;
-    height: 100px; 
- border-radius: 8PX;  */
-/* border:none;  */
-/* border:80px solid#42fbf2;  */
-/* z-index: 1;   */
-/* font-size: 2rem; */
-/* outline: none; 
-} */
-/* .btn::before{
-    transition: 0.5s all ease;
-    left: 0;
-    opacity: 1;
-    z-index: -1;
-}  */
-/* .bord{
-    color: #fff;
-    cursor: pointer;
-} */ 
-
-
- .btn {
+.btn {
     align-items: center;
     appearance: none;
     background-color: #fff;
@@ -242,7 +181,7 @@ hr {
     line-height: normal;
     max-width: 100%;
     overflow: visible;
-    padding: 2px ;
+    padding: 2px;
     position: relative;
     text-align: center;
     text-transform: none;
@@ -250,19 +189,12 @@ hr {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
- width: auto;
+    width: auto;
     will-change: transform, opacity;
-    /* z-index:0;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly ;
-    align-items: center;
-    text-align: center;
-    min-height:10vh; */
     margin-top: 24vh;
     margin-right: 50%;
 
- }
+}
 
 .btn:hover {
     background: #00CED1;
@@ -297,9 +229,7 @@ hr {
 
 .btn:disabled {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-} 
-
-
+}
 
 @media (max-width: 800px) {
 

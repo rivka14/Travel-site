@@ -5,17 +5,21 @@
 
 }
 
-
 a {
     text-decoration: none !important;
 }
 
-
 body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     direction: rtl;
     height: 100%;
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out;
 }
 
 header {
@@ -54,8 +58,6 @@ nav {
 
 .liNav a {
     display: block;
-    /* color: rgb(0, 0, 0); */
-
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,17 +67,12 @@ nav {
 }
 
 .liNav a:hover {
-    /* background-color: #6cd4e1; */
     background-color: #D3D3D3;
-    /* background-color: #00CED1; */
-
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    /* background-color: #75cfe3; */
-    /* background-color: #00CED1; */
     background-color: #D3D3D3;
     color: #00CED1;
     min-width: 160px;
@@ -194,77 +191,68 @@ nav {
         background: linear-gradient(45deg, #40E0D0, #7FFFD4, #66CDAA, #00CED1, #008080, rgb(12, 206, 231), #00CED1, #20B2AA, #00CED1, #48D1CC, #00FFFF);
         -webkit-background-clip: text;
         background-clip: text;
-        color: transparent; 
+        color: transparent;
     }
 
     90% {
         background: linear-gradient(45deg, #7FFFD4, #66CDAA, #00CED1, #008080, rgb(12, 206, 231), #00CED1, #20B2AA, #00CED1, #48D1CC, #00FFFF, #40E0D0);
         -webkit-background-clip: text;
         background-clip: text;
-        color: transparent; 
+        color: transparent;
     }
 
     95% {
         background: linear-gradient(45deg, #66CDAA, #00CED1, #008080, rgb(12, 206, 231), #00CED1, #20B2AA, #00CED1, #48D1CC, #00FFFF, #40E0D0, #7FFFD4);
         -webkit-background-clip: text;
         background-clip: text;
-        color: transparent; 
+        color: transparent;
     }
 
     100% {
         background: linear-gradient(45deg, #00CED1, #008080, rgb(12, 206, 231), #00CED1, #20B2AA, #00CED1, #48D1CC, #00FFFF, #40E0D0, #7FFFD4, #66CDAA);
         -webkit-background-clip: text;
         background-clip: text;
-        color: transparent; 
+        color: transparent;
     }
-
-
-
 }
 
-
-
-.sellOneStrip {
-    background-color: #808080;
+.nav {
+    background-color: #00CED1;
+    height: 20vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    column-gap: 15px;
 }
 
-.navBarOne {
-    background-color: white;
-    width: 100%;
+.nav button {
+    font-size: 110%;
+    border-radius: 13px;
 }
 
-.glyphicon :hover {
-    color: #00CED1;
-}
-
-.btn-default {
-    margin: 0.5%;
-}
-
-.glyphicon {
-    margin: 0.9%;
-    margin-top: 4%;
-}
-
-
-footer{
+footer {
     display: flex !important;
     background-color: #008080;
     justify-content: space-around;
     flex-flow: row wrap;
-    box-shadow: #2B323F2B  6px 3px 0px;
+    box-shadow: #2B323F2B 6px 3px 0px;
     margin-top: 50px;
 
 }
-footer a{
-    color: #ffffff ;
-}
-footer a :hover{
-    color:   #000000!important;
+
+footer a {
+    color: #ffffff;
 }
 
-.list_of_prosecutor_in_footer{
+footer a :hover {
+    color: #000000 !important;
+}
+
+.list_of_prosecutor_in_footer {
     width: 18%;
     display: flex !important;
     list-style-type: none;
@@ -273,14 +261,9 @@ footer a :hover{
     /* gap: 100px; */
     flex-wrap: nowrap;
     display: table-column !important
-
 }
+
 .list_of_prosecutor_in_footer ul {
     list-style-type: none;
     padding: 0;
 }
-
-
-
-
-
