@@ -6,3 +6,4 @@ Features ✨
 - Destination Highlights: Showcasing popular destinations with captivating visuals.
 - User-Friendly Interface: Intuitive navigation for seamless user experience.
 - Interactive Elements: Hover effects, smooth animations, and more. 
+ 
