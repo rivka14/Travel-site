@@ -35,18 +35,6 @@
   animation: jeep 10s linear infinite forwards; 
 }
 
-/* @keyframes jeep {
-  0% {
-    transform: translateX(100%);
-  }
-  50% {
-    transform: translateX(37);
-  }
-  100% {
-    transform: translateX(-220%);
-  }
-} */
-
 @keyframes jeep {
   0% {
     right: 0px;
